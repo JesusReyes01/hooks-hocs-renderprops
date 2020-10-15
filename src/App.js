@@ -10,6 +10,11 @@ function App() {
       <Hooks />
       {/* <ThemeChanger /> */}
       {/* render prop component here */}
+      {/* <RenderProp render={(theme, toggleFn) => (
+        <div className={theme}>
+          <button className='toggle-btn' onClick={toggleFn}>{theme}</button>
+          </div>
+      )}/> */}
     </div>
   );
 }
